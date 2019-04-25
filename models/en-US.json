@@ -1,0 +1,38 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "sema pesa",
+      "intents": [{
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "StkPushIntent",
+          "samples": [
+            "{name}"
+          ],
+          "slots": [{
+            "name": "name",
+            "type": "AMAZON.US_FIRST_NAME"
+          }]
+        }
+      ]
+    }
+  }
+}

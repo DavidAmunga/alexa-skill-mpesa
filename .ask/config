@@ -1,0 +1,33 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.ffeb4aba-bd81-4f52-8cd5-9a7ff36b36a6",
+      "was_cloned": false,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "2a7ae4a365a966b9de5d8f37644595af"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "86b5dc974198244d30610cf9042ef79b"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:244449337487:function:ask-custom-semapesa-default",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-semapesa-default",
+            "handler": "index.handler",
+            "revisionId": "66604cb3-bf9e-45d1-8be1-dd100f2ab134",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
+    }
+  }
+}
